@@ -28,6 +28,7 @@
  * @rom_svc: Application ID of ROM api (input in r0 will move to r12)
  * @arg: Argument passed to ROM api (input in r1 will move to r0)
  */
+.arch_extension sec
 .globl omap_smc_rom
 omap_smc_rom:
 	push {r4-r11,lr}

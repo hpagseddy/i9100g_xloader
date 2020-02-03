@@ -1,7 +1,7 @@
 HOW TO BUILD XLOADER
 1. How to Build
  - get Toolchain
-  From Codesourcery site( http://www.codesourcery.com )
+  From Github (https://github.com/embest-tech/fsl-linaro-toolchain)
   recommand : 2010q1 version.
  - edit Makefile
    edit "CROSS_COMPILE" to right toolchain path(You downloaded).
